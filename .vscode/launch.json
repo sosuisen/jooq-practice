@@ -1,15 +1,13 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "Run jooq-practice",
-            "request": "launch",
-            "mainClass": "com.example/com.example.App",
-            "projectName": "jooq-practice"
+            "name": "Run JavaFX (Debug)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 5005,
+            "preLaunchTask": "debug"
         }
-    ],
+    ]
 }
